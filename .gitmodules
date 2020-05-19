@@ -1,0 +1,6 @@
+[submodule "covid-dashboard-frontend"]
+	path = covid-dashboard-frontend
+	url = https://github.com/geoboom/covid-dashboard-frontend.git
+[submodule "covid-dashboard-backend"]
+	path = covid-dashboard-backend
+	url = https://github.com/geoboom/covid-dashboard-backend.git

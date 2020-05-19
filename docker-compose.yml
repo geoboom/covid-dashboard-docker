@@ -12,13 +12,13 @@ services:
       - app_network
 
   frontend: 
-    build: ./frontend
+    build: ./covid-dashboard-frontend
     container_name: frontend
     networks:
       - app_network
 
   backend:
-    build: ./backend
+    build: ./covid-dashboard-backend
     container_name: backend
     environment:
       - MODULE_NAME=app
