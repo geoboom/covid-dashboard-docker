@@ -26,7 +26,8 @@ services:
       - app_network
 
   rmap:
-    build: ./rmap
+  # build: ./rmap
+    image: orch-test_rmap
     container_name: rmap
     volumes:
       - ${PWD}/rmap/:/srv/shiny-server/
